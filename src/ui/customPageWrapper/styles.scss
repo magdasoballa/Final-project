@@ -1,0 +1,44 @@
+@import "../../styles/mixin.scss";
+
+.custom-page-wrapper {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url("../../styles/resources/iabloki-sparzha-ogurtsy-kivi-ovoshchi-frukty-zelenye-temnyi.jpg");
+  @include background;
+
+  .custom-page-wrapper-content {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.8;
+
+    .custom-page-wrapper-header {
+      margin-bottom: 30px;
+
+      .custom-page-wrapper-title {
+        font-size: 2rem;
+        margin-bottom: -30px;
+      }
+
+      .custom-page-wrapper-addition {
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: -20px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .login-form-wrapper button {
+    background-color: black;
+  }
+
+  .register-form-wrapper button {
+    background-color: black;
+  }
+
+
+  .PrivateNotchedOutline-legendLabelled-3 > span {
+    padding-right: 22px;
+  }
+}

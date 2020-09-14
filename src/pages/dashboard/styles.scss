@@ -1,0 +1,47 @@
+@import "src/styles/colors";
+@import "src/styles/mixin";
+@import "src/styles/global";
+@use 'sass:color';
+
+$bg-img: url("../../styles/resources/iabloki-sparzha-ogurtsy-kivi-ovoshchi-frukty-zelenye-temnyi.jpg");
+
+
+.main_dashboard{
+  @include background;
+  min-height: 100vh;
+  background-image:$bg-img;
+}
+
+.MuiButton-label {
+  color:white;
+  font-size: 2rem;
+  font-family: $font-primary;
+  font-weight: bolder;
+  text-transform: none;
+}
+
+  .MuiPopover-paper{
+    width:120px;
+    li.MuiListItem-button {
+      font-family: $font-primary;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
+
+  .calendar-modal-body-wrapper {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    .calendar-modal-body {
+      min-width: 500px;
+      padding: 30px;
+      display: flex;
+      background: wheat;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }

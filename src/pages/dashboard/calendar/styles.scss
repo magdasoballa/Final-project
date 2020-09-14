@@ -1,0 +1,86 @@
+@import "src/styles/global";
+@import "src/styles/mixin";
+
+* {
+  font-family: $font-primary;
+}
+
+
+.calendar-container {
+  width: 80vw;
+  box-sizing: border-box;
+  margin: 0 auto;
+
+  .box {
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    .inputs-row {
+      display: flex;
+      justify-content: space-between;
+      .input-kcal {
+        width: 30%;
+      }
+    }
+  }
+  .calendar_title{
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+  }
+  .day-wrapper {
+    width: 400px;
+    margin: 10px;
+    padding: 5px 10px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .days-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+
+@media only screen and (min-width: 1050px) {
+  .calendar-container {
+    .day-wrapper {
+      margin: 0;
+    }
+  }
+}
+.btnWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .row {
+    // display: flex;
+    // [class*="col-"] {
+    //   width: 100%;
+    //   min-height: 1px;
+    //   padding: 10px 10px;
+    // }
+    // @for $i from 1 through 12 {
+    //   .col-#{$i} {
+    //     flex: 0 0 (100%/12) * $i;
+    //   }
+    // }
+  // }

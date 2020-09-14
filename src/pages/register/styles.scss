@@ -1,0 +1,21 @@
+@import "src/styles/colors";
+
+.register-form-wrapper {
+  margin-top: 20px;
+  width: 500px;
+  border: 1px solid $dark-border;
+  padding: 30px 50px;
+  box-shadow: 10px 10px 5px 0px $dark-border-shadow;
+  .register-form-input-wrapper {
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+  }
+  .register-form-btn {
+    margin-top: 50px;
+  }
+  .error-text-auth {
+    text-align: center;
+    color: $error;
+  }
+}

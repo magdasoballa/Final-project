@@ -1,0 +1,27 @@
+{
+    "parser": "babel-eslint",
+    "rules": {
+      "strict": 0,
+      "semi": ["error", "always"],
+      "max-len": ["error", {
+        "code": 120,
+        "tabWidth": 2,
+        "ignoreUrls": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals": true,
+        "ignorePattern": "^\\s*var\\s.+=\\s*require\\s*\\("
+      }]
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "env": {
+      "browser": true
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
+  }

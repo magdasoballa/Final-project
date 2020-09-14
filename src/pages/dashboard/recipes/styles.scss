@@ -1,0 +1,42 @@
+@import "src/styles/global";
+
+.recipes {
+  color: white;
+  font-family: $font-primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+.recipes_input{
+  padding:5px;
+  border-radius: 10px;
+  border:2px solid black;
+}
+  .recipes_subtitle{
+    font-size: 2rem;
+  }
+  .recipe_section {
+    max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .recipe_section_img {
+      max-width: 50%;
+      border-radius: 50%;
+
+      &_bigger {
+        max-width: 70%;
+        border-radius: 50%;
+      }
+    }
+    .recipes_details{
+      font-size: 3rem
+    }
+  }
+
+  .recipes_title {
+    font-size: 4rem;
+  }
+}

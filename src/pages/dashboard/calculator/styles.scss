@@ -1,0 +1,28 @@
+@import "src/styles/colors";
+@use 'sass:color';
+@import "src/styles/global";
+
+.form-calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: $font-primary;
+  color: white;
+  font-size: 1.3rem;
+  .input_calculator {
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black
+  }
+}
+.error{
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 5px;
+}
+.save-button-wrapper{
+  display: flex;
+  justify-content: center;
+}
+

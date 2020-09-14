@@ -1,0 +1,28 @@
+@import "src/styles/colors";
+@import "src/styles/global";
+@import "src/styles/mixin";
+
+
+.login-form-wrapper {
+  font-family: $font-primary;
+  width: 500px;
+  border: 1px solid $dark-border;
+  padding: 30px 50px;
+  box-shadow: 10px 10px 5px 0 $dark-border-shadow;
+  .login-form-input-wrapper {
+    margin-top: 60px;
+    width: 100%;
+    position: relative;
+  }
+  .login-form-btn {
+    margin-top: 50px;
+  }
+  .error-text-auth {
+    text-align: center;
+    color: $error;
+    margin-top: 40px;
+  }
+}
+
+
+
