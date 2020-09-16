@@ -21,8 +21,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media only screen and (max-width: 585px) {
+      text-align: center;
+    }
 
-    .recipe_section_img {
+
+      .recipe_section_img {
       max-width: 50%;
       border-radius: 50%;
 

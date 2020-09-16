@@ -73,12 +73,12 @@ export const Register = () => {
     setRepeatPasswordErr(validatePasswordRepeat);
     setIsTheSamePassErr(validateIsTheSamePass);
     setNameErr(validateName);
-    const validation = !!validateMail
+    const notValidation = !!validateMail
                   || !!validatePassword
                   || !!validatePasswordRepeat
                   || !!validateName
                   || !!validateIsTheSamePass;
-    return validation;
+    return notValidation;
   };
 
   return (

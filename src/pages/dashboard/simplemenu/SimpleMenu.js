@@ -6,8 +6,6 @@ import "../styles.scss";
 import {logoutUser} from "../../../store/actions";
 
 
-
-
 export const SimpleMenu = ({onChange}) => {
   const [anchorEl, setAnchorEl] = React.useState(null);
 

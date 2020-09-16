@@ -3,9 +3,6 @@ import {logoutUser} from "../../../store/actions";
 import {Redirect, useHistory} from "react-router-dom";
 import {useDispatch} from "react-redux";
 
-
-
-
 export const Logout = () => {
 
     const history = useHistory();

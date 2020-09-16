@@ -38,7 +38,7 @@ export const saveAllData = (state) =>(dispatch) => {
     dispatch({ type: CHANGE_STATUS_FETCHING});
     const email = localStorage.getItem("user");
     db.collection('users').doc(email).update({
-        requireAllKcal: state
+        allData: state
     }).then(() => {
         dispatch({type: SET_ALL_USER_KCAL, payload: state });
     });
