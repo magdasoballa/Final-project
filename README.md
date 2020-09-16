@@ -6,17 +6,17 @@
 **Main assumptions of the application**
 
 1.Calculation of individual caloric requirements.
-![Calculator](/fun-app/src/styles/resources/app%20images/calculator.png)
+![Calculator](https://github.com/magdasoballa/Final-project/blob/master/src/styles/resources/app%20images/calculator.png)
 
 2.Help with finding inspiration for meals by searching for recipes on the site.
-![Recipes](https://github.com/magdasoballa/Final-project/blob/master/src/styles/resources/app%20images/calculator.png)
+![Recipes](https://github.com/magdasoballa/Final-project/blob/master/src/styles/resources/app%20images/recipes.png)
 
 3.Help in controlling meals through a planner in which we record individual meals and their calories, 
 the planner also calculates all calories consumed during the day.
-![Recipes](/fun-app/src/styles/resources/app%20images/planer.png)
+![Recipes](https://github.com/magdasoballa/Final-project/blob/master/src/styles/resources/app%20images/planer.png)
 
 4.The ability to send a message / suggestion to the creator of the website.
-![Recipes](/fun-app/src/styles/resources/app%20images/contact.png)
+![Recipes](https://github.com/magdasoballa/Final-project/blob/master/src/styles/resources/app%20images/contact.png)
 
 
 *Status of the project : in progress*
