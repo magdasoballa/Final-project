@@ -1,6 +1,6 @@
 #Final project from Coders Lab Bootstrap.
 
-##The project aims to help people who want to better control their nutrition.
+The project aims to help people who want to better control their nutrition.
 
 
 **Main assumptions of the application**
@@ -25,11 +25,11 @@ It will be possible to send a given meal from the search engine directly to the 
 Besides, the calories of meals will be already calculated in the search engine
 
 *Contributing*
-Fork it (https://github.com/yourname/yourproject/fork)
-Create your feature branch (git checkout -b feature/fooBar)
-Commit your changes (git commit -am 'Add some fooBar')
-Push to the branch (git push origin feature/fooBar)
-Create a new Pull Request
+*Fork it (https://github.com/yourname/yourproject/fork)
+*Create your feature branch (git checkout -b feature/fooBar)
+*Commit your changes (git commit -am 'Add some fooBar')
+*Push to the branch (git push origin feature/fooBar)
+*Create a new Pull Request
 
-Created by @magdasoballa - feel free to contact me!
+*Created by* @magdasoballa - feel free to contact me!
 
