@@ -9,8 +9,7 @@
 ![Calculator](/fun-app/src/styles/resources/app%20images/calculator.png)
 
 2.Help with finding inspiration for meals by searching for recipes on the site.
-![Recipes](/fun-app/src/styles/resources/app%20images/recipes.png)
-<img src="/fun-app/src/styles/resources/app%20images/recipes.png">
+![Recipes](https://github.com/magdasoballa/Final-project/blob/master/src/styles/resources/app%20images/calculator.png)
 
 3.Help in controlling meals through a planner in which we record individual meals and their calories, 
 the planner also calculates all calories consumed during the day.
